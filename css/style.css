@@ -161,3 +161,16 @@
     font-size: 32px;
     letter-spacing: -0.64px;
 }
+
+
+
+
+/* js */
+.js .js-heads span{
+margin: 0 10px;
+display: flex;
+overflow: auto;
+width: 10000px;
+}
+/* not working */
+
