@@ -102,8 +102,13 @@ gap: 10px;
     display: flex;
     flex-direction: column;
     /* text buggy */
-align-items: center;
-   
+align-items: center; 
+    position: relative;
+
+}
+.container div{
+    
+    margin: 7px;
 }
 
 
@@ -120,7 +125,27 @@ align-items: center;
     height: 100%;  
     width: 100%;
 }
-/* .cont-content{
-    text-align: start;
-    align-self:;
-} */
+.cont-content{
+    align-self:self-start;
+padding: 0px 18px;
+    line-height: 20px;
+}
+.normal-txt{
+    font-size: 14px;
+    font-weight: 500;
+}
+.light-txt{
+    font-size: 14px;
+
+    opacity: .6;
+}
+
+.overicon{
+    background-color: grey;
+    border-radius: 30px;
+    padding: 10px;
+    position: absolute;
+    right: 8%;
+    top: 3%;
+
+}
