@@ -452,5 +452,8 @@
      .past{
         margin: 2%;
      }
+     .sha ul{
+        grid-template-columns: repeat(3,3fr);
+     }
 
  }
