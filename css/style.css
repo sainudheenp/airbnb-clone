@@ -119,21 +119,23 @@
      grid-template-columns: 100%;
      grid-auto-rows: minmax(min-content, max-content);
      justify-content: center;
-     padding: 0 30px;
+     padding: 0 25px;
  }
 
  .container {
      position: relative;
      margin-top: 15px;
-display: flex;
-flex-direction: column;
+     display: flex;
+     flex-direction: column;
  }
 
  .cont-img {
      /* width: 327px; */
      width: 100%;
-     /* height: 310px; */
-     height: 100%;
+     /* height: 100%; */
+     height: 350px;
+     object-fit: cover;
+
 
  }
 
@@ -347,9 +349,11 @@ flex-direction: column;
  }
 
  @media screen and (min-width:750px) {
+     .cntr {
+         display: none;
+     }
 
-
-/* nav */
+     /* nav */
      nav {
          display: inline;
      }
@@ -415,9 +419,38 @@ flex-direction: column;
 
      /* grid */
 
-     .listcards{
-        grid-template-columns: repeat(2,2fr);
-        padding: 0 20px;
+     .listcards {
+         grid-template-columns: repeat(2, 2fr);
+         /* padding: 0 20px; */
+     }
+
+ }
+
+
+ @media screen and (min-width:960px) {
+     .listcards {
+         grid-template-columns: repeat(3, 33%);
+     }
+
+
+ }
+
+ @media screen and (min-width:1130px) {
+     .listcards {
+         grid-template-columns: repeat(4, 25%);
+     }
+     .past{
+        margin: 3%;
+     }
+ }
+
+ @media screen and (min-width:1635px) {
+     .listcards {
+         grid-template-columns: repeat(5, 19%);
+     }
+
+     .past{
+        margin: 2%;
      }
 
  }
