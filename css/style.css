@@ -296,7 +296,7 @@ footer {
     display: flex;
     list-style-type: none;
     width: 100%;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .ptsc ul li {
@@ -396,6 +396,13 @@ footer {
         grid-template-columns: repeat(2, 2fr);
         /* padding: 0 20px; */
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (min-width: 960px) {
@@ -438,7 +445,12 @@ footer {
     .bottom-nav {
         display: none;
     }
-
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
 
 
 }
