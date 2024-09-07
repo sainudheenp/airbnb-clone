@@ -402,6 +402,9 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    .sha h1 {
+      border-top: 0px solid transparent;
+    }
     
 }
 
