@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: center;
     margin: 10px 0;
-    margin-top: 30px;
+    margin-top: 14px;
 }
 
 .swa3 {
@@ -68,13 +68,15 @@ nav {
 /* swp */
 .swp {
     display: flex;
-    overflow: auto;
+    overflow: scroll;
     gap: 30px;
     /* justify-content: space-around; */
 
     /* width:100%; */
     height: 72px;
     padding: 0 24px;
+    border-bottom: 2px solid rgb(206, 204, 204);
+
 }
 
 .items {
@@ -98,7 +100,7 @@ nav {
 /* section 2 image cards */
 
 .listcards {
-    margin-top: 20px;
+    /* margin-top: 20px; mob res */
     margin-bottom: 20px;
     display: grid;
     /* grid-template-columns:repeat(1,minmax(0,1fr)) ; */
@@ -128,7 +130,7 @@ nav {
 .cont-img img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -312,6 +314,9 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 1px 70px;
+    position: sticky;
+    bottom: 0;
+    opacity: 1.2;
 }
 
 @media screen and (min-width: 550px) {
