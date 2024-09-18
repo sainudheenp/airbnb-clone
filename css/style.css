@@ -74,13 +74,63 @@ nav {
 }
 
 /* swp */
-.swp {
+
+.swp{
+    box-sizing: border-box;
+    color: rgba(34, 34, 34);
+    column-gap: 16px;
+    row-gap: 16px;
+    contain: paint;
+    padding: 0 20px;
+    display: grid;
+    gap: 16px,16px;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-rows: 74px;
+    height: 74px;
+    line-height: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.items {
+    font-size: 12px;
+    padding: 4px 0;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 4px;
+    row-gap: 4px;
+    text-align: center;
+}
+
+.items img {
+height: 24px;
+width: 24px;
+aspect-ratio: 24/24;
+justify-self: center;
+vertical-align: middle;
+}
+
+.items div span{
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+/* .swp {
     display: flex;
     overflow: scroll;
     gap: 30px;
-    /* justify-content: space-around; */
 
-    /* width:100%; */
     height: 72px;
     padding: 0 24px;
     border-bottom: 2px solid rgb(206, 204, 204);
@@ -97,7 +147,6 @@ nav {
     text-align: center;
     min-width: max-content;
     opacity: 0.6;
-    /* scrollbar-width: 0px; */
 
 }
 
@@ -113,7 +162,8 @@ nav {
 
 .swp span {
     font-size: 12px;
-}
+} */
+
 
 /* section 2 image cards */
 
