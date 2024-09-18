@@ -1,7 +1,6 @@
 /* media <550,550-760,760- */
 
 
-
 nav {
     display: none;
 }
@@ -10,10 +9,10 @@ nav {
     padding: 0;
     margin: 0;
     font-family: CerealVF;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     list-style-type: none;
     text-decoration: none;
-    /* overflow-x: hidden; */
+
 }
 
 @font-face {
@@ -22,19 +21,23 @@ nav {
 }
 
 /* header  */
-header{
+#header {
     position: sticky;
+    right: 0;
     top: 0;
     background-color: #FFF;
     z-index: 1;
+
 }
+
 /* search */
 .cntr {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 10px 0;
-    margin-top: 14px;
+    /* margin: 10px 0; */
+    /* margin-top: 14px; */
+    padding: 14px 0;
 
 }
 
@@ -45,11 +48,7 @@ header{
     display: flex;
     border-radius: 40px;
     align-items: center;
-    /* border: 3px solid rgba(193, 190, 190, 0.915); */
-    /* box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.6); */
     box-shadow: 2px 2px 5px #b9b9b9;
-
-    /* box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 4px 12px 0px; */
 }
 
 .wa3 {
@@ -80,7 +79,7 @@ header{
 
 /* swp */
 
-.swp{
+.swp {
     box-sizing: border-box;
     color: rgba(34, 34, 34);
     column-gap: 16px;
@@ -88,7 +87,7 @@ header{
     contain: paint;
     padding: 0 20px;
     display: grid;
-    gap: 16px,16px;
+    gap: 16px, 16px;
     column-gap: 16px;
     row-gap: 16px;
     grid-auto-columns: max-content;
@@ -99,31 +98,42 @@ header{
     justify-content: flex-start;
     overflow-x: auto;
     overflow-y: hidden;
+    scrollbar-width: none;
+    box-shadow: 2px 2px #f3f3f3;
 }
+
 .items {
     font-size: 12px;
     padding: 4px 0;
     width: 85px;
+    min-width:64px;
+    /* min-width:max-content; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     column-gap: 4px;
     row-gap: 4px;
     text-align: center;
 }
-.item1{
+
+.item1 {
+min-width: 0px;
     width: 40px;
+}
+.item1-label{
+    border-bottom: 2px solid rgb(50, 50, 50);
 }
 
 .items img {
-height: 24px;
-width: 24px;
-aspect-ratio: 24/24;
-justify-self: center;
-vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    aspect-ratio: 24/24;
+    justify-self: center;
+    vertical-align: middle;
 }
 
-.items div span{
+.items div span {
     justify-self: center;
 }
 
@@ -186,6 +196,10 @@ vertical-align: middle;
     padding: 0 25px;
     row-gap: 15px;
     column-gap: 15px;
+
+    /*  */
+    overflow: hidden;
+
 }
 
 .container {
