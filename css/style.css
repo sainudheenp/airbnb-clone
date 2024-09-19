@@ -132,11 +132,16 @@ nav {
     scrollbar-width: none;
     box-shadow: 2px 2px #f3f3f3;
 }
+.innerdiv{
+    height: 74px;
+}
 
 .items {
     font-size: 12px;
     padding: 4px 0;
     width: 85px;
+    /* width: max-content;
+    max-width: max-content; */
     min-width: 64px;
     /* min-width:max-content; */
     display: flex;
@@ -289,12 +294,18 @@ row-gap: 40px;
     column-gap: 8px;
     row-gap: 2px;
     line-height: 19px;
-
-
-
     grid-template-columns: auto;
     grid-template-rows: 19px 19px 19px;
 
+}
+.cont-content h4{
+
+    word-break: break-all;
+display: inline-block;
+    text-overflow:ellipsis ;
+    white-space: nowrap;
+    overflow-x: hidden;
+    
 }
 
 .cont-content > div:not(.light-txt) {
@@ -460,7 +471,7 @@ footer {
 .bottom-nav {
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 65px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-around;
@@ -468,6 +479,35 @@ footer {
     position: sticky;
     bottom: 0;
     opacity: 1.2;
+    text-align: center;
+}
+.bn-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: .79;
+    height: 64px;
+    width:  44px;
+}
+.bn-item:nth-child(1){
+    opacity: unset;
+}
+.bn-item img{
+    width: 24px;
+    height: 24px;
+    padding-bottom: 6px;
+}
+.bn-item .red{
+    color: red;
+}
+
+.bn-item > div{
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    font-weight: 500 !important;
+    line-height: 12px;
+
 }
 
 @media screen and (min-width: 550px) {
