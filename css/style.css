@@ -478,11 +478,11 @@ footer {
 .bottom-nav {
     display: flex;
     flex-direction: row;
-    height: 65px;
+    height: 64px;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    justify-content: space-around;
-    padding: 1px 70px;
+    justify-content: center;
+    padding: 1px 0px;
     position: sticky;
     bottom: 0;
     opacity: 1.2;
@@ -495,7 +495,9 @@ footer {
     justify-content: center;
     opacity: .79;
     height: 64px;
-    width:  44px;
+    width: 64px;
+    max-width:  20%;
+    padding-top: 5px;
 }
 .bn-item:nth-child(1){
     opacity: unset;
@@ -517,6 +519,12 @@ footer {
 
 }
 
+.bn-txt{
+    opacity: 0.6;
+    font-size: CeralVF;
+  
+
+}
 @media screen and (min-width: 550px) {
     nav {
         display: none;
