@@ -234,7 +234,7 @@ label {
 .listcards {
     /* margin-top: 20px; mob res */
     margin-top: 24px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;   third bottom  */
     display: grid;
     /* grid-template-columns:repeat(1,minmax(0,1fr)) ; */
     grid-template-columns: 100%;
@@ -333,9 +333,10 @@ row-gap: 40px;
 /* here */
 
 /* btion 3 */
-/* .past-par{
-    margin
-} */
+.past-par{
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
 
 
 .past {
@@ -343,6 +344,14 @@ row-gap: 40px;
     font-size: 32px;
     letter-spacing: -0.64px;
 }
+
+.third{
+    margin-bottom:32px;
+}
+
+
+
+
 
 /* js */
 
