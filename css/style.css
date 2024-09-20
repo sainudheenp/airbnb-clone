@@ -132,7 +132,8 @@ nav {
     scrollbar-width: none;
     box-shadow: 2px 2px #f3f3f3;
 }
-.innerdiv{
+
+.innerdiv {
     height: 74px;
 }
 
@@ -234,7 +235,8 @@ label {
 .listcards {
     /* margin-top: 20px; mob res */
     margin-top: 24px;
-    /* margin-bottom: 20px;   third bottom  */
+    margin-bottom: 20px;
+    /* third bottom  */
     display: grid;
     /* grid-template-columns:repeat(1,minmax(0,1fr)) ; */
     grid-template-columns: 100%;
@@ -243,7 +245,7 @@ label {
     padding: 0 25px;
     row-gap: 15px;
     column-gap: 15px;
-row-gap: 40px;
+    row-gap: 40px;
     /*  */
     overflow: hidden;
 
@@ -281,8 +283,8 @@ row-gap: 40px;
 .light-txt {
     font-size: 15px;
     color: #6a6a6a;
-    font-family:CerealVF ;
- 
+    font-family: CerealVF;
+
     font-weight: 400;
     width: 250px;
 }
@@ -298,19 +300,20 @@ row-gap: 40px;
     grid-template-rows: 19px 19px 19px;
 
 }
-.cont-content h4{
+
+.cont-content h4 {
 
     /* word-break: break-all; */
-/* display: inline-block; */
-    text-overflow:ellipsis ;
+    /* display: inline-block; */
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
-    
+
 }
 
-.cont-content > div:not(.light-txt) {
+.cont-content>div:not(.light-txt) {
 
-    display:-webkit-box ;
+    display: -webkit-box;
     font-weight: 500;
     width: 250px;
     font-size: 15px;
@@ -333,7 +336,7 @@ row-gap: 40px;
 /* here */
 
 /* btion 3 */
-.past-par{
+.past-par {
     margin-top: 50px;
     margin-bottom: 24px;
 }
@@ -345,8 +348,8 @@ row-gap: 40px;
     letter-spacing: -0.64px;
 }
 
-.third{
-    margin-bottom:32px;
+.third {
+    margin-bottom: 32px;
 }
 
 
@@ -497,7 +500,8 @@ footer {
     opacity: 1.2;
     text-align: center;
 }
-.bn-item{
+
+.bn-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -505,22 +509,25 @@ footer {
     opacity: .79;
     height: 64px;
     width: 64px;
-    max-width:  20%;
+    max-width: 20%;
     padding-top: 5px;
 }
-.bn-item:nth-child(1){
+
+.bn-item:nth-child(1) {
     opacity: unset;
 }
-.bn-item img{
+
+.bn-item img {
     width: 24px;
     height: 24px;
     padding-bottom: 6px;
 }
-.bn-item .red{
+
+.bn-item .red {
     color: red;
 }
 
-.bn-item > div{
+.bn-item>div {
     font-size: 0.625rem;
     line-height: 0.75rem;
     font-weight: 500 !important;
@@ -528,12 +535,13 @@ footer {
 
 }
 
-.bn-txt{
+.bn-txt {
     opacity: 0.6;
     font-size: CeralVF;
-  
+
 
 }
+
 @media screen and (min-width: 550px) {
     nav {
         display: none;
@@ -703,7 +711,7 @@ footer {
     }
 
 
-   
+
 
 
 
