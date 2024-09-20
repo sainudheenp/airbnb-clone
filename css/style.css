@@ -349,7 +349,7 @@ label {
 }
 
 .third {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 
@@ -359,7 +359,7 @@ label {
 /* js */
 
 .js {
-    padding: 40px 20px;
+    padding: 48px 24px;
     background-color: rgba(0, 0, 0, 0.08);
 }
 
@@ -368,10 +368,10 @@ label {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
-    gap: 10px;
     text-decoration: none;
     color: black;
-    border-bottom: 3px solid rgb(128, 128, 128);
+height: 50px;
+align-items: center;
 }
 
 .js .js-heads a::-webkit-scrollbar {
@@ -379,17 +379,33 @@ label {
 }
 
 .js .js-heads a div {
-    margin: 10px 0px;
+    margin: 6px 6px 6px 0;
+    padding: 10px;
     min-width: max-content;
+    font-size: 14px;
+    font-weight: 500;
+}
+.js .js-heads a div:nth-child(1){
+    border-bottom: 3px solid rgb(128, 128, 128);
+
+    padding-left:0 ;
+}
+.js .js-heads a div:not(.Popular){
+    opacity: 0.6;
 }
 
 .js .insp {
     text-align: start;
     /* padding: 20px 20px; */
 }
+.js .insp h2{
+    font-size: 1.37rem;
+    font-weight: 500;
+    margin-bottom: 8px;
 
-.js .js-heads h1 {
-    font-size: 14px;
+}
+.js-cnt{
+    padding-top: 32px;
 }
 
 .js-cnt ul {
@@ -404,9 +420,23 @@ label {
     /* padding: 20px; */
 }
 
-.js-cnt ul p {
-    font-size: 15px;
+.js-cnt ul span {
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    text-overflow: ellipsis;
 }
+.js-cnt ul p{
+    font-size: 14px;
+    min-width: max-content;
+    line-height: 18px;
+    opacity: .6;
+}
+
+
+
+
+
 
 /* sha */
 .js,
@@ -422,16 +452,29 @@ label {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
-    row-gap: 10px;
-    padding: 20px;
+    row-gap: 12px;
+    column-gap: 12px;
+    /* padding: 20px; */
+    border-top: 2px solid rgb(202, 202, 202);
+    padding: 24px 4px ;
+
 }
 
 .sha h1 {
     font-size: 14px;
     font-family: sans-serif;
-    border-top: 2px solid rgb(202, 202, 202);
-    padding-top: 30px;
+    line-height: 18px;
 }
+.sha li{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+
+
+
+
+
 
 hr {
     /* border-radius: 0px solid grey; */
