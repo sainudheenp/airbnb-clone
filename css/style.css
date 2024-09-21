@@ -442,9 +442,9 @@ label {
 }
 
 .show-more {
-/* float: left; */
-display: flex;
-align-items: center;
+    /* float: left; */
+    display: flex;
+    align-items: center;
 }
 
 
@@ -547,7 +547,7 @@ footer {
 /* .cou-lang div span {
     margin-left: 8px;
 } */
-.cou div{
+.cou div {
     /* margin-right: 20px; */
 }
 
@@ -691,17 +691,18 @@ footer {
     .nav-p {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         height: 80px;
         line-height: 20px;
-        padding-inline-end:40px;
+        padding-inline-end: 40px;
         padding-inline-start: 40px;
     }
 
     .left img {
         /* padding: 10px; */
     }
-    .mid-w{
+
+    .mid-w {
         padding: 0px 24px;
 
     }
@@ -712,30 +713,35 @@ footer {
         align-items: center;
         border: 1px solid grey;
         border-radius: 30px;
-        min-width: 348px;
-        width: 350px;
+        /* min-width: 348px; */
+        width: 330px;
         height: 48px;
     }
+
     .any {
-        border-right: 2px solid grey;
         padding: 0 16px;
         text-overflow: ellipsis;
-        white-space:nowrap ;
+        white-space: nowrap;
         overflow-x: hidden;
         /* min-width: 80px; */
     }
-    .any:nth-child(1){
+
+    .any:nth-child(1) {
         margin-left: 8px;
     }
 
-
-
-
-
+    .any:nth-child(2) {
+        border-right: 2px solid grey;
+        border-left: 2px solid grey;
+    }
+    
 
     .srch {
+        
         border-radius: 30px;
-        padding: 6px;
+        /* margin-right: 20px; */
+        margin: 7px 7px 7px 0;
+        padding: 10px;
         background-color: #ff3863;
     }
 
@@ -743,7 +749,7 @@ footer {
         width: 18px;
     }
 
-    
+
 
     .right {
         display: flex;
@@ -751,6 +757,10 @@ footer {
         justify-content: space-between;
         gap: 15px;
     }
+
+.right .air{
+    font-size: 14px;
+}
 
     .right .cont {
         display: flex;
@@ -766,6 +776,11 @@ footer {
         padding: 0 6px;
     }
 
+
+
+
+
+    
     /* grid */
 
     .listcards {
