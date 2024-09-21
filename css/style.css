@@ -343,9 +343,12 @@ label {
 
 
 .past {
-    margin-left: 8%;
+    /* margin-left: 8%; */
+    margin-left: 24px;
     font-size: 32px;
     letter-spacing: -0.64px;
+    font-weight: 500;
+    line-height: 36px;
 }
 
 .third {
@@ -438,7 +441,11 @@ label {
     opacity: .6;
 }
 
-
+.show-more {
+/* float: left; */
+display: flex;
+align-items: center;
+}
 
 
 
@@ -526,7 +533,7 @@ footer {
     align-items: center;
 }
 
-content
+/* content */
 
 /* .cou{
     display: flex;
@@ -534,9 +541,16 @@ content
     align-items: center;
     text-align: center;
 } */
-.cou-lang div span {
+
+
+
+/* .cou-lang div span {
     margin-left: 8px;
+} */
+.cou div{
+    /* margin-right: 20px; */
 }
+
 
 .c {
     padding: 4px 24px;
@@ -659,7 +673,7 @@ content
 
     .listcards {
         grid-template-columns: repeat(2, 49%);
-        column-gap: 20px;
+        column-gap: 24px;
         overflow-x: hidden;
     }
 }
@@ -676,12 +690,20 @@ content
 
     .nav-p {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        padding: 20 40px;
+        height: 80px;
+        line-height: 20px;
+        padding-inline-end:40px;
+        padding-inline-start: 40px;
     }
 
     .left img {
-        padding: 10px;
+        /* padding: 10px; */
+    }
+    .mid-w{
+        padding: 0px 24px;
+
     }
 
     .midl {
@@ -690,22 +712,38 @@ content
         align-items: center;
         border: 1px solid grey;
         border-radius: 30px;
-        padding: 0px 10px;
+        min-width: 348px;
+        width: 350px;
+        height: 48px;
     }
+    .any {
+        border-right: 2px solid grey;
+        padding: 0 16px;
+        text-overflow: ellipsis;
+        white-space:nowrap ;
+        overflow-x: hidden;
+        /* min-width: 80px; */
+    }
+    .any:nth-child(1){
+        margin-left: 8px;
+    }
+
+
+
+
+
 
     .srch {
         border-radius: 30px;
         padding: 6px;
-        background-color: rgb(244, 38, 38);
+        background-color: #ff3863;
     }
 
     .srch img {
         width: 18px;
     }
 
-    .any {
-        border-right: 2px solid grey;
-    }
+    
 
     .right {
         display: flex;
