@@ -292,6 +292,7 @@ label {
     border-radius: 15px;
     object-fit: cover;
     /* object-position: 50% 50%; */
+    aspect-ratio: 20/19;
 }
 
 .normal-txt {
@@ -722,8 +723,9 @@ footer {
     .desk-li {
         display: inline;
     }
-    .social-tab{
-        display: inline;
+    /* .social-ta */
+    .cou-lang div:nth-child(3){
+        display: flex;
     }
 
 
@@ -759,11 +761,14 @@ footer {
         display: flex;
         gap: 10px;
         align-items: center;
-        border: 1px solid grey;
+        border: 1px solid var(--line-fill-color);
         border-radius: 30px;
         /* min-width: 348px; */
         width: 330px;
         height: 48px;
+    }
+    .mr-wrapper{
+        display: flex;
     }
 
     .any {
@@ -779,8 +784,8 @@ footer {
     }
 
     .any:nth-child(2) {
-        border-right: 2px solid grey;
-        border-left: 2px solid grey;
+        border-right: 2px solid var(--line-fill-color);
+        border-left: 2px solid var(--line-fill-color);
     }
 
 
@@ -962,13 +967,21 @@ footer {
 
 @media screen and (min-width: 968px) {
     .listcards {
-        grid-template-columns: repeat(3, 33%);
+        /* grid-template-columns: repeat(3, 33%); */
+       grid-template-columns:repeat(3,minmax(0,1fr)) ;
+        /* repeat(var(--breakpoint-grid_columns, 1), minmax(0, 1fr)) */
     }
 
     .sha {
         display: grid;
         /* grid-auto-columns: ; */
         grid-template-columns: repeat(3, 3fr);
+
+    }
+    .nav-p{
+        justify-content: space-between;
+    }
+    .mr-wrapper{
 
     }
 }
