@@ -5,9 +5,9 @@
 
 
 /* none */
-.comp{
+/* .comp {
     display: none;
-}
+} */
 
 
 nav {
@@ -17,7 +17,8 @@ nav {
 .desk-li {
     display: none;
 }
-.cou-lang div:nth-child(3){
+
+.cou-lang div:nth-child(3) {
     display: none;
 }
 
@@ -395,7 +396,7 @@ label {
     color: black;
     height: 50px;
     align-items: center;
-    
+
 }
 
 .js .js-heads a::-webkit-scrollbar {
@@ -440,7 +441,7 @@ label {
 .js-cnt ul {
     display: grid;
     /* grid-template-columns: repeat(2, 45%); */
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     /* repeat(var(--dense-grid-column-count,2),minmax(0,1fr)) */
     /* grid-row: auto;
     grid-auto-rows:min-content; */
@@ -591,16 +592,16 @@ footer {
 }
 
 .ptsc ul {
-    display: flex;
+    display: inline;
     /* flex-wrap: wrap; */
     width: 100%;
     /* justify-content: space-around; */
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
 
 .ptsc ul li {
     /* list-style-type: circle; */
-
+display: inline-block;
     text-align: center;
     padding: 0 3px;
     min-width: max-content;
@@ -665,9 +666,9 @@ footer {
 }
 
 @media screen and (min-width:375px) {
-.comp{
-    display: inline;
-}
+    .comp {
+        display: inline;
+    }
 
 
 
@@ -723,8 +724,9 @@ footer {
     .desk-li {
         display: inline;
     }
+
     /* .social-ta */
-    .cou-lang div:nth-child(3){
+    .cou-lang div:nth-child(3) {
         display: flex;
     }
 
@@ -767,7 +769,8 @@ footer {
         width: 330px;
         height: 48px;
     }
-    .mr-wrapper{
+
+    .mr-wrapper {
         display: flex;
     }
 
@@ -968,7 +971,7 @@ footer {
 @media screen and (min-width: 968px) {
     .listcards {
         /* grid-template-columns: repeat(3, 33%); */
-       grid-template-columns:repeat(3,minmax(0,1fr)) ;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         /* repeat(var(--breakpoint-grid_columns, 1), minmax(0, 1fr)) */
     }
 
@@ -978,16 +981,27 @@ footer {
         grid-template-columns: repeat(3, 3fr);
 
     }
-    .nav-p{
+
+    .nav-p {
         justify-content: space-between;
     }
+
     /* .mr-wrapper{
 
     } */
 
-.js-cnt ul{
-    grid-template-columns: repeat( 3, minmax( 0 ,1fr));
-}
+    .js-cnt ul {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 24px 8px;
+        /* row-gap: 8px;
+    column-gap: 24px; */
+
+
+    }
+    .sha ul{
+        padding: 48px 0;
+        gap: 12px;
+    }
 
 
 }
