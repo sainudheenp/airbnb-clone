@@ -1,6 +1,6 @@
 /* media <550,550-760,760- */
-:root{
-    --line-fill-color:#DDDDDD;
+:root {
+    --line-fill-color: #DDDDDD;
 }
 
 nav {
@@ -470,7 +470,7 @@ label {
     column-gap: 12px;
     /* padding: 20px; */
     padding: 24px 4px;
-    border-top: 1px solid var(--line-fill-color) ;
+    border-top: 1px solid var(--line-fill-color);
 }
 
 .sha ul:nth-child(3) {
@@ -764,7 +764,7 @@ footer {
         align-items: center;
     }
 
-    .air{
+    .air {
         padding: 12px;
         font-size: 14px;
 
@@ -775,7 +775,7 @@ footer {
         min-width: 149px;
     }
 
-     .glb{
+    .glb {
         padding: 12px;
     }
 
@@ -863,6 +863,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 24px 0px;
+        height: 75px;
     }
 
     .sha {
@@ -884,30 +885,34 @@ footer {
     .social-tab>svg {
         margin-right: 16px;
     }
-.bottom-nav{
-    display: none;
-}
-.cou-lang{
-    padding-top: unset;
-    margin-bottom: 16px;
-}
 
-.cou-lang div{
-margin-right: 10px;
-}
+    .bottom-nav {
+        display: none;
+    }
 
-.c{
-    padding-bottom: unset;
-}
-.ptsc{
-    padding: unset;
-    padding-top: unset;
-    margin-bottom: unset;
-}
-.ptsc-dot{
-    height: 19px;
-    width: 18px;
-}
+    .cou-lang {
+        padding-top: unset;
+        margin-bottom: 16px;
+    }
+
+    .cou-lang div {
+        margin-right: 10px;
+    }
+
+    .c {
+        padding-bottom: unset;
+    }
+
+    .ptsc {
+        padding: unset;
+        padding-top: unset;
+        margin-bottom: unset;
+    }
+
+    .ptsc-dot {
+        height: 19px;
+        width: 18px;
+    }
 
 }
 
