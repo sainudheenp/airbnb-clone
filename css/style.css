@@ -3,9 +3,26 @@
     --line-fill-color: #DDDDDD;
 }
 
+
+/* none */
+.comp{
+    display: none;
+}
+
+
 nav {
     display: none;
 }
+
+.desk-li {
+    display: none;
+}
+.cou-lang div:nth-child(3){
+    display: none;
+}
+
+
+
 
 * {
     padding: 0;
@@ -377,6 +394,7 @@ label {
     color: black;
     height: 50px;
     align-items: center;
+    
 }
 
 .js .js-heads a::-webkit-scrollbar {
@@ -388,6 +406,7 @@ label {
     padding: 10px;
     min-width: max-content;
     font-size: 14px;
+    border-bottom: 2px solid var(--line-fill-color);
     font-weight: 500;
 }
 
@@ -419,7 +438,9 @@ label {
 
 .js-cnt ul {
     display: grid;
-    grid-template-columns: repeat(2, 45%);
+    /* grid-template-columns: repeat(2, 45%); */
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    /* repeat(var(--dense-grid-column-count,2),minmax(0,1fr)) */
     /* grid-row: auto;
     grid-auto-rows:min-content; */
     column-gap: 8px;
@@ -573,6 +594,7 @@ footer {
     /* flex-wrap: wrap; */
     width: 100%;
     /* justify-content: space-around; */
+    flex-wrap:nowrap;
 }
 
 .ptsc ul li {
@@ -582,6 +604,8 @@ footer {
     padding: 0 3px;
     min-width: max-content;
 }
+
+
 
 .bottom-nav {
     display: flex;
@@ -640,6 +664,12 @@ footer {
 }
 
 @media screen and (min-width:375px) {
+.comp{
+    display: inline;
+}
+
+
+
     .swa3 {
         width: 88%;
         margin-left: 24px;
@@ -681,9 +711,23 @@ footer {
 }
 
 @media screen and (min-width: 750px) {
+
+    /* none */
     .cntr {
         display: none;
     }
+
+    /* display */
+
+    .desk-li {
+        display: inline;
+    }
+    .social-tab{
+        display: inline;
+    }
+
+
+
 
     /* nav */
     nav {
