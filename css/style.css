@@ -981,9 +981,15 @@ footer {
     .nav-p{
         justify-content: space-between;
     }
-    .mr-wrapper{
+    /* .mr-wrapper{
 
-    }
+    } */
+
+.js-cnt ul{
+    grid-template-columns: repeat( 3, minmax( 0 ,1fr));
+}
+
+
 }
 
 @media screen and (min-width: 1130px) {
