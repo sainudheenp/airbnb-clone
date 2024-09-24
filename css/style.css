@@ -23,6 +23,9 @@ display: none;
 .desk-1130-logo{
     display: none;
 }
+.desk-1130-li{
+    display: none;
+}
 
 .cou-lang div:nth-child(3) {
     display: none;
@@ -734,6 +737,10 @@ footer {
         display: inline;
     }
 
+    .desk-1130.des-li{
+        display: none;
+    }
+
     /* .social-ta */
     .cou-lang div:nth-child(3) {
         display: flex;
@@ -773,6 +780,8 @@ footer {
 
     .mid-w {
         padding: 0px 24px;
+        display: flex;
+        align-items: center;
 
     }
 
@@ -1043,7 +1052,9 @@ footer {
 .desk-1130-logo{
     display: block;
 }
-
+.desk-1130-li{
+    display: inline;
+}
 
 
     .listcards {
