@@ -275,7 +275,7 @@ label {
     grid-template-columns: 100%;
     grid-auto-rows: minmax(min-content, max-content);
     justify-content: center;
-    padding: 0 25px;
+    padding: 0 24px;
     row-gap: 15px;
     column-gap: 15px;
     row-gap: 40px;
@@ -359,10 +359,11 @@ label {
     position: absolute;
     /* top: 4%;
     right: 5%; */
-    top: 14px;
-    right: 11px;
+    top: 12px;
+    right: 12px;
     /* margin: 10px 10px 0 0 ; */
-    background-color: rgb(196, 195, 195);
+    /* background-color: rgb(196, 195, 195); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), linear-gradient(0deg, rgba(255, 255, 255, 0.54) 0%, rgba(255, 255, 255, 0.48) 60%, rgba(255, 255, 255, 0.76) 100%);
     border-radius: 30px;
     padding: 8px;
 }
@@ -625,7 +626,7 @@ footer {
 .bottom-nav {
     display: flex;
     flex-direction: row;
-    height: 64px;
+    height: 63px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
