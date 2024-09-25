@@ -1233,6 +1233,10 @@ footer {
         flex-direction: column;
     }
 
+
+
+
+
     .ptsc {
         display: flex;
         justify-content: space-around;
@@ -1245,14 +1249,19 @@ footer {
 
 
     .js-cnt ul span {
-        font-size: 12px;
-        line-height: 12px;
+        /* font-size: 12px; */
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .js-cnt ul p {
-        font-size: 11px;
+        /* font-size: 11px; */
+        font-size: 14px;
     }
-
+.cont-content h4{
+opacity: 1;
+font-weight: 500;
+}
 
     footer {
         display: flex;
