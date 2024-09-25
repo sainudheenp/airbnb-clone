@@ -302,7 +302,7 @@ label {
 .cont-img img {
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 12px;
     object-fit: cover;
     /* object-position: 50% 50%; */
     aspect-ratio: 20/19;
@@ -1282,14 +1282,58 @@ footer {
         margin-left: 20px;
     }
 
+.your-home{
+    font-size: 14px;
+}
+
+
+/* test codes */
+.social-tab {
+    margin-left: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    border-top: 1px solid var(--line-fill-color);
+    
+}
+.lang{
+    margin:0 24px;
+}
+.cou-lang {
+    margin: 0px;
+    padding: 0px;
+}
+.cou-lang div:nth-child(1) {
+    margin-right: 0px;
+}
+.cp {
+    align-items: center;
+}
+
+.c {
+    padding: 0px 0px;
+    padding-right: 15px;
+}
+
+.cou-lang div{
+    margin-right: 0px;
+}
+.rupee{
+    margin-right: 5px;
+}
 
 
 
 }
 
-@media screen and (min-width: 1635px) {
+/*  screen px 1635 */
+@media screen and (min-width: 1435px) {
     .listcards {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
         padding: 0 80px;
     }
 
@@ -1373,8 +1417,12 @@ footer {
     .social-tab {
         margin-left: 24px;
     }
+}
 
+@media screen and (min-width:1630px) {
+    .listcards{
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
 
-
-
+   
 }
