@@ -59,7 +59,7 @@ nav {
     top: 0;
     background-color: #FFF;
     z-index: 1;
-    height: 144px;
+    /* height: 144px; */
 }
 
 /* search */
@@ -1142,6 +1142,10 @@ footer {
         height: 19px;
         width: 18px;
     }
+    .cont-content h4 {
+        font-weight: 500; 
+        
+    } 
 
 }
 
@@ -1179,6 +1183,9 @@ footer {
     .sha ul {
         padding: 48px 0;
         gap: 12px;
+    }
+    .your-home{
+        font-size: 14px;
     }
 
 
@@ -1356,7 +1363,8 @@ footer {
     }
 
     .cont-content h4 {
-        font-weight: 500;
+        font-weight: 500; 
+
     }
 
 
@@ -1415,9 +1423,9 @@ footer {
         padding: 0px;
     } */
 
-    .cou-lang div:nth-child(1) {
+    /* .cou-lang div:nth-child(1) {
         margin-right: 24px;
-    }
+    } */
 
     .lang {
         margin: 0 24px;
