@@ -196,7 +196,7 @@ nav {
     align-items: center;
     justify-content: center;
     column-gap: 4px;
-    row-gap: 4px;
+    row-gap: 3px;
     text-align: center;
     margin-top: 12px;
     margin-bottom: 10px;
@@ -213,6 +213,7 @@ nav {
 .item1-label {
     border-bottom: 2px solid rgb(50, 50, 50);
 }
+
 
 .items img {
     height: 24px;
@@ -575,15 +576,20 @@ footer {
 .cou-lang span {
     font-size: 14px;
     line-height: 18px;
+    font-weight: 500;
 }
 
+ .cou .a{
+    margin-right: 24px;
 
-
+}
 
 .cou-lang div {
-    margin-right: 20px;
     display: flex;
     align-items: center;
+}
+.rupee{
+    margin-right: 5px;
 }
 
 /* content */
@@ -606,17 +612,20 @@ footer {
 
 
 .c {
-    padding: 4px 24px;
+    padding:0 24px 8px 24px;
     font-size: 14px;
 }
 
 /* pstc */
 .ptsc {
-    padding: 4px 24px;
+    padding: 0px 24px;
     margin-bottom: 15px;
     font-size: 14px;
     line-height: 24px;
     display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 8px;
+
 }
 
 .ptsc ul {
