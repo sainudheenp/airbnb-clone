@@ -765,13 +765,11 @@ footer {
 
     .nav-p {
         overflow: hidden;
-
-
         display: flex;
         padding-inline-start: 40px;
         padding-inline-end: 40px;
         justify-content: space-between;
-        height: 80px;
+        height: 81px;
         line-height: 20px;
         align-items: center;
 
@@ -783,6 +781,8 @@ footer {
 
     #header {
         top: 81px;
+        border-top: 1px solid var(--line-fill-color);
+
     }
 
     .logo-container {
@@ -1142,10 +1142,11 @@ footer {
         height: 19px;
         width: 18px;
     }
+
     .cont-content h4 {
-        font-weight: 500; 
-        
-    } 
+        font-weight: 500;
+
+    }
 
 }
 
@@ -1184,7 +1185,8 @@ footer {
         padding: 48px 0;
         gap: 12px;
     }
-    .your-home{
+
+    .your-home {
         font-size: 14px;
     }
 
@@ -1363,7 +1365,7 @@ footer {
     }
 
     .cont-content h4 {
-        font-weight: 500; 
+        font-weight: 500;
 
     }
 
