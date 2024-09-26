@@ -351,7 +351,7 @@ label {
 
 .cont-content div {
     /* word-break: break-all; */
-    /* display: inline-block; */
+    display: inline-block;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
@@ -361,7 +361,7 @@ label {
 
 .cont-content>div:not(.light-txt) {
 
-    display: -webkit-box;
+    /* display: -webkit-box; */
     font-weight: 500;
     width: 250px;
     font-size: 15px;
