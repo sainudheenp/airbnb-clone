@@ -711,10 +711,12 @@ footer {
     }
 
 
-    .swa3 {
-        width: 88%;
 
-    margin-left: 24px;
+
+    .swa3 {
+        width: 92.6%;
+
+    /* margin-left: 24px; */
 
     }
 
@@ -724,8 +726,11 @@ footer {
 
     .cntr {
         justify-content: unset;
-        /* margin-left: 24px; */
+        margin-left: 24px;
         /* margin-right: 24px; */
+    }
+    .search{
+        width: 52px;
     }
 
 
