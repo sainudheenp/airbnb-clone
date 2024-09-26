@@ -729,7 +729,7 @@ footer {
 
 
     .swa3 {
-        width: 92.6%;
+        width: 100%;
 
     /* margin-left: 24px; */
 
@@ -742,7 +742,7 @@ footer {
     .cntr {
         justify-content: unset;
         margin-left: 24px;
-        /* margin-right: 24px; */
+        margin-right: 24px;
     }
     .search{
         width: 52px;
@@ -760,9 +760,9 @@ footer {
 
 
 
-.swa3{
+/* .swa3{
     width: 95%;
-}
+} */
 
     nav {
         display: none;
@@ -789,6 +789,15 @@ footer {
     .bn-item{
         width: 112px;
     }
+
+/* .cntr{
+    padding-right: 24px;
+
+}
+.swa3{
+    width: 100%;
+} */
+
 }
 
 @media screen and (min-width: 750px) {
@@ -796,7 +805,6 @@ footer {
     /* none */
     .cntr {
         display: none;
-        
     }
 
     /* .left svg{
