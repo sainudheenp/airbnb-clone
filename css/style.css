@@ -401,8 +401,8 @@ label {
 }
 
 .third {
-    /* padding-bottom: 32px; */
-    padding-bottom: 37px;
+    padding-bottom: 32px;
+    /* padding-bottom: 37px; */
 }
 
 
@@ -1203,7 +1203,8 @@ footer {
     }
 
     .cou-lang div {
-        margin-right: 10px;
+        /* @760px  */
+        /* margin-right: 10px; */
     }
 
     .cou-lang div:nth-child(3) {
@@ -1224,6 +1225,7 @@ footer {
     .ptsc-dot {
         height: 19px;
         width: 18px;
+        padding: 0 4px;
     }
 
     .cont-content h4 {
@@ -1484,6 +1486,8 @@ footer {
 
     .past {
         margin-left: 80px;
+
+        /* lap tab*2 */
     }
 
     .js {
