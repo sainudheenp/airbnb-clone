@@ -776,7 +776,8 @@ footer {
 
     .ptsc{
         padding-bottom: 6px;
-        padding-top: 8px;
+        padding-top: 5px;
+        margin-bottom: 18px;
     }
     /* .ptsc-dot{
         padding: 0 3px;
