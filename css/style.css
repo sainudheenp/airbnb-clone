@@ -162,7 +162,9 @@ nav {
     column-gap: 16px;
     row-gap: 16px;
     contain: paint;
-    padding: 0 20px;
+    /* padding: 0 20px; */
+    padding: 0 19px;
+
     display: grid;
     gap: 16px, 16px;
     column-gap: 16px;
@@ -208,11 +210,17 @@ nav {
     width: 40px;
     font-weight: 500;
     opacity: 2;
+    gap: 2px;
+    margin-bottom: 2px;
 }
+.item1 img{
 
+}
 .item1-label {
+
     border-bottom: 2px solid rgb(50, 50, 50);
 }
+
 
 
 .items img {
@@ -1121,16 +1129,18 @@ footer {
     /* swp */
     .swp {
         /* padding-left:40px; */
-        padding: 0 40px;
+        padding: 0 35px;
         /* padding-top: 12px; */
-        height: 78px;
+        /* height: 78px; */
+        gap: 30px;
     }
-
+    .item1 span{
+        margin-top: 2px;
+    }
     header {
         margin-bottom: 12px;
 
     }
-
 
 
 
