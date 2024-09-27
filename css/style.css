@@ -178,7 +178,7 @@ nav {
     overflow-x: auto;
     overflow-y: hidden;
     scrollbar-width: none;
-    box-shadow: 2px 2px #f3f3f3;
+    box-shadow: 2px 0px #f3f3f3;
 }
 
 .innerdiv {
@@ -395,7 +395,7 @@ label {
 
 /* btion 3 */
 .past-par {
-    margin-top: 50px;
+    margin-top: 52px;
     margin-bottom: 24px;
 }
 
@@ -410,8 +410,11 @@ label {
 }
 
 .third {
-    padding-bottom: 32px;
-    /* padding-bottom: 37px; */
+/* @mob 320 */
+    padding-bottom: 37px;
+
+
+    /* padding-bottom: 32px; */
 }
 
 
@@ -856,8 +859,8 @@ footer {
         padding-inline-start: 40px;
         padding-inline-end: 40px;
         justify-content: space-between;
-        height: 81px;
-        line-height: 20px;
+        height: 80px;
+        /* line-height: 20px; */
         align-items: center;
 
         position: sticky;
@@ -976,6 +979,8 @@ footer {
         padding: 12px;
         min-width: max-content;
         font-size: 14px;
+
+        font-weight: 500;
     }
 
     .globe {
@@ -1248,6 +1253,9 @@ footer {
     }
     .right-container{
         flex: 1 0 140px;
+    }
+    .item1 span{
+    padding-bottom: 8px;
     }
 
 }
