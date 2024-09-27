@@ -178,7 +178,9 @@ nav {
     overflow-x: auto;
     overflow-y: hidden;
     scrollbar-width: none;
-    box-shadow: 2px 0px #f3f3f3;
+    /* box-shadow: 2px 0px #f3f3f3; */
+        box-shadow: 2px 2px #f3f3f3;
+
 }
 
 .innerdiv {
