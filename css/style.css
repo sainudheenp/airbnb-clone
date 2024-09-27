@@ -213,12 +213,13 @@ nav {
     gap: 2px;
     margin-bottom: 2px;
 }
-.item1 img{
-
+.item1 span{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
 }
 .item1-label {
 
-    border-bottom: 2px solid rgb(50, 50, 50);
+    /* border-bottom: 2px solid rgb(50, 50, 50); */
 }
 
 
@@ -363,7 +364,7 @@ label {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
-    font-weight: 500;
+    /* font-weight: 500; */
 
 }
 
