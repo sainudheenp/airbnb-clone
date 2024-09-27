@@ -401,7 +401,8 @@ label {
 }
 
 .third {
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
+    padding-bottom: 37px;
 }
 
 
@@ -796,6 +797,10 @@ footer {
 .swa3{
     width: 100%;
 } */
+
+
+
+
 
 }
 
