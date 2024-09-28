@@ -219,10 +219,10 @@ nav {
     padding-bottom: 10px;
     border-bottom: 2px solid black;
 }
-.item1-label {
+/* .item1-label {
 
-    /* border-bottom: 2px solid rgb(50, 50, 50); */
-}
+    border-bottom: 2px solid rgb(50, 50, 50);
+} */
 
 
 
@@ -1221,10 +1221,11 @@ footer {
         margin-bottom: 16px;
     }
 
+    /* @760px  
     .cou-lang div {
-        /* @760px  */
-        /* margin-right: 10px; */
-    }
+      
+        margin-right: 10px;
+    } */
 
     .cou-lang div:nth-child(3) {
         margin-right: unset;
