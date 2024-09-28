@@ -626,7 +626,7 @@ footer {
 
 
 .c {
-    padding:0 24px 8px 24px;
+    padding:0 24px 6px 24px;
     font-size: 14px;
 }
 
@@ -897,6 +897,7 @@ footer {
         border-radius: 40px;
         box-sizing: border-box;
         padding-left: 8px;
+        /* min-width: 30vw; */
     }
 
     .any-container .guest {
@@ -1272,8 +1273,9 @@ footer {
     .sha {
         display: grid;
         /* grid-auto-columns: ; */
-        grid-template-columns: repeat(3, 3fr);
-
+        /* grid-template-columns: repeat(3, 3fr); */
+        grid-template-columns: repeat(3,minmax(0,1fr));
+column-gap: 8px;
     }
 
     .nav-p {
@@ -1351,6 +1353,7 @@ footer {
     .sha {
         display: grid;
         column-gap: 8px;
+
     }
 
 
