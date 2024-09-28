@@ -427,7 +427,8 @@ label {
 
 .js {
     padding: 48px 24px;
-    background-color: rgba(0, 0, 0, 0.08);
+    /* background-color: rgba(0, 0, 0, 0.08); */
+    background-color: #f7f7f7;
 }
 
 .js .js-heads a {
@@ -474,6 +475,7 @@ label {
     font-size: 1.37rem;
     font-weight: 500;
     margin-bottom: 8px;
+    line-height: 1.625rem;
 
 }
 
