@@ -1596,8 +1596,9 @@ footer {
     .listcards {
         grid-template-columns: repeat(6, minmax(0, 1fr));
     }
-    .js,.sha,footer{
+    .js-cnt ul{
         padding: 48px 300px ;
+        /* grid-template-columns: minmax(0,1fr) minmax(0,4fr) minmax(0,1fr); */
     }
 
 }
