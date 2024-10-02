@@ -1011,72 +1011,7 @@ footer {
     }
 
 
-    /* nav {
-        display: inline;
-    } */
-    /* 
-    .nav-p {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 80px;
-        line-height: 20px;
-        padding-inline-end: 40px;
-        padding-inline-start: 40px;
-        border-bottom: 1px solid rgb(231, 231, 231);
 
-        position: sticky;
-        top: 0;
-        background-color: white;
-        z-index: 1;
-
-        width: 100%;
-        box-sizing: border-box;
-    } */
-
-
-
-    /* .left img {
-        padding: 10px;
-    } */
-
-    /* .mid-w {
-        padding: 0px 24px;
-        display: flex;
-        align-items: center;
-
-    } */
-
-    /* .midl { 
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        border: 1px solid var(--line-fill-color);
-        border-radius: 30px;
-        min-width: 348px;
-        width: 330px;
-        height: 48px;
-    } */
-    /* .mr-wrapper {
-        display: flex;
-        gap: 30px;
-    } */
-
-    /* .any {
-        padding: 0 16px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow-x: hidden;
-    } */
-
-    /* .any:nth-child(1) {
-        margin-left: 8px;
-    } */
-
-    /* .any:nth-child(2) {
-        border-right: 2px solid var(--line-fill-color);
-        border-left: 2px solid var(--line-fill-color);
-    } */
 
 
 
@@ -1596,8 +1531,9 @@ footer {
     .listcards {
         grid-template-columns: repeat(6, minmax(0, 1fr));
     }
-    .js-cnt ul{
-        padding: 48px 300px ;
+
+    .js-cnt ul {
+        padding: 48px 300px;
         /* grid-template-columns: minmax(0,1fr) minmax(0,4fr) minmax(0,1fr); */
     }
 
