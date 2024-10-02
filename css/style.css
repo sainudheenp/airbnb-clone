@@ -1532,9 +1532,23 @@ footer {
         grid-template-columns: repeat(6, minmax(0, 1fr));
     }
 
-    .js-cnt ul {
-        padding: 48px 300px;
-        /* grid-template-columns: minmax(0,1fr) minmax(0,4fr) minmax(0,1fr); */
+    .large-grid {
+
+    background-color:rgb(250, 250, 250);
+        display: grid;
+        grid-template-columns: minmax(0,1fr) minmax(0,4fr) minmax(0,1fr);
+    }
+.js , .sha , footer{ 
+    grid-column: 2/2;
+    background-color: transparent;
+}
+
+
+    .past{
+        margin-top: 52px;
     }
 
-}
+    .rupee{
+        font-size: 16px;
+    }
+}       
